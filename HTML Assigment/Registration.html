@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developers Stack Academy</title>
+<link rel="icon" href="https://logos-world.net/wp-content/uploads/2020/09/Google-Logo-2015-present.jpg"
+type="image/x-icon">
+
+<style>
+
+
+   ul li{
+      display: inline;
+      margin: 50px;
+     
+   }
+
+   a{
+      text-decoration: none;
+      color: black;
+    }
+
+        nav{
+      background-color: rgb(175, 173, 173);
+
+          }
+   
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 50px;
+        font-family: Arial, sans-serif;
+        line-height: 1.8;
+        min-height: 100vh;
+        background: #e6f5fa;
+        flex-direction: column;
+    }
+
+  
+    .main {
+        background-color: #fff;
+        border-radius: 15px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        padding: 20px;
+        transition: transform 0.2s;
+        width: 600px;
+    }
+
+    form {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: rgb(246, 251, 252);
+        
+    }
+
+    h1,
+    h3 {
+        text-align: center;
+        color: blue;
+    }
+
+    input,
+    button {
+        padding: 10px;
+    }
+    header{
+      text-align: center;
+      background-color: rgb(178, 248, 227);
+            
+    }
+
+    footer{
+      text-align: center;
+      background-color: darkgray;    
+   }
+   
+</style>
+
+</head>
+<body>
+
+    <header>
+        <h1>Welcome To Developers Academy
+        <img src="logo.png" alt="logo" width="100px" height="100px" align="left">
+     </h1>
+        </header>
+<br>
+    <nav>
+        <ul style="list-style-type: none; ">
+
+            <li>
+                <a href="index.html">Home</a>
+             </li>
+
+         <li>
+                
+           <a href="Details.html"> Student details</a>
+         </li>
+
+
+             <li>
+              <a href="Contact.html">  Contact </a>
+             </li>
+
+             <li>
+               <a href="Blog.html"> Blog </a>
+             </li>
+
+             <li>
+              <a href="Login.html"> Log In </a>
+             </li>
+
+             <li>
+                <a href="index.html">Home</a>
+             </li>
+
+            </ul>
+    </nav>
+<br>
+
+
+<form>
+
+   
+   <fieldset>
+    <legend>Registration Form</legend>
+    
+    <img src="logo.png">
+   <p>
+    <label> Salutation<br>
+    <select name="salutaion">
+        <option>--None--</option>
+        <option>Mr.</option>
+        <option>Ms.</option>
+        <option>Mrs.</option>
+    </select>
+    </label>
+   </p>
+
+   <p>
+    <label>First Name: <input name="firstName"></label>
+   </p>
+
+   <p>
+    <label>Last Name: <input name="lastName"></label>
+   </p>
+
+   <p>
+    Gender :
+    <label>
+        <input type="radio" name="gender"> Male
+    </label>
+    <label>
+        <input type="radio" name="gender"> Female
+    </label>
+   </p>
+
+   <p>
+    <label>Email: <input type="email" name="email">
+    </label>
+   </p>
+
+   <p>
+    <label>Date of Birth
+        <input type="date" name="birthDate">
+    </label>
+   </p>
+   <p>
+    <label>Address: 
+        <br>
+        <textarea name="address" rows="3" cols="30"></textarea>
+    </label>
+   </p>
+
+   <p>
+    <label>Contact Number: <input name="contactNumber"></label>
+   </p>
+
+   <p>
+    <label>NIC: <input name="nic"></label>
+   </p>
+
+   <p>
+    <button type="submit">Submit</button>
+   </p>
+</fieldset>
+
+
+</form>
+<br>
+<footer style="text-align: center ;" > <b > &copy;  Developed By: Sasivarnan . </b></footer>
+</body>
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        ul li{
+           display: inline;
+           margin: 50px;
+          
+        }
+        a{
+           text-decoration: none;
+           color: black;
+        }
+             
+        nav{
+        background-color: rgb(175, 173, 173);
+
+         }
+         header{
+      text-align: center;
+      background-color: rgb(178, 248, 227);
+           
+   }
+
+   footer{
+      text-align: center;
+      background-color: darkgray;    
+   }
+   form {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: rgb(246, 251, 252);
+        
+    }
+
+   
+    </style>
+
+</head>
+<body>
+
+    <header>
+        <h1>Welcome To Developers Academy
+        <img src="logo.png" alt="logo" width="200px" height="200px" align="left">
+     </h1>
+        </header>
+
+    <nav>
+        <ul style="list-style-type: none; ">
+
+            <li>
+                <a href="index.html">Home </a>
+
+            </li>
+
+            <li>
+                
+                <a href="Details.html"> Student details</a>
+            </li>
+
+            <li>
+                <a href="Registration.html"> Student Registration </a>
+            </li>
+
+            
+
+            <li>
+                <a href="Blog.html"> Blog </a>
+            </li>
+
+            <li>
+                <a href="Login.html"> Log In </a>
+            </li>
+
+            </ul>
+    </nav>
+<br>
+
+<form>
+
+   
+    <fieldset>
+     <legend>Inquiries</legend>
+     
+     <img src="logo.png">
+    <p>
+     <label> Salutation<br>
+     <select name="salutaion">
+         <option>--None--</option>
+         <option>Mr.</option>
+         <option>Ms.</option>
+         <option>Mrs.</option>
+     </select>
+     </label>
+    </p>
+ 
+    <p>
+     <label>Full Name: <input name="firstName"></label>
+    </p>
+
+    <p>
+        <label>Contact Number: <input name="contactNumber"></label>
+    </p>
+
+    <p>
+        <label>Email: <input type="email" name="email">
+        </label>
+    </p>
+
+    <label>Questions: 
+        <br>
+        <textarea name="Questions" rows="4" cols="40"></textarea>
+    </label>
+   </p>
+
+    </fieldset>
+
+</form>
+ 
+<br>
+    <footer style="text-align: center ;" > <b > &copy;  Developed By: Sasivarnan . </b></footer>
+
+</body>
+</html>
